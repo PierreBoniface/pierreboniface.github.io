@@ -4,29 +4,31 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<title>Pierre Boniface</title>
+	<title>Pierre Boniface</title>
 
-	<link rel="stylesheet" href="dist/reset.css">
+	<!-- Reveal.js CDN -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reset.css">
 	<link rel="stylesheet" href="css/latex.css">
-	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css">
+	
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
 	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css">
 
+	<!-- Bootstrap Icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 
 	<link rel="icon" href="img/index/france.png" type="image/x-icon">
 
-
-	<!-- https://stackoverflow.com/questions/47057398/reveal-js-title-with-capitalized-words-but-not-in-uppercase -->
+	<!-- Text style -->
 	<style>
-    .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
-		text-transform: none;
-	}
-	</style>
-	<style type="text/css">
+		.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+			text-transform: none;
+		}
 		p { text-align: left; }
 	</style>
 
@@ -123,11 +125,13 @@
 </div>
 </div>
 
-<script src="dist/reveal.js"></script>
-<script src="plugin/notes/notes.js"></script>
-<script src="plugin/markdown/markdown.js"></script>
-<script src="plugin/highlight/highlight.js"></script>
-<script src="plugin/zoom/zoom.js"></script>
+<!-- Reveal.js CDN scripts -->
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.js"></script>
+
 <script>
 	// More info about initialization & config:
 	// - https://revealjs.com/initialization/
@@ -142,7 +146,7 @@
 		hideCursorTime: 3000,
 
 		// Learn about plugins: https://revealjs.com/plugins/
-		plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom ],
+		plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom ]
 	});
 
 	Reveal.configure({
@@ -154,6 +158,4 @@
 
 </script>
 </body>
-
-
 </html>
